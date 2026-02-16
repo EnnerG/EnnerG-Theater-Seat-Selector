@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EnerG Seat Selector</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- Banner/Header -->
+  <header class="banner">
+    <h1>EnerG Theater Seat Selector</h1>
+  </header>
+
+  <!-- Main Seat Map Container -->
+  <main>
+    <div class="seat-map"></div>
+  </main>
+
+  <!-- Floating Cart Button (with badge) -->
+  <button id="cartButton" class="cart-button">
+    🛒
+    <span id="cartBadge" class="cart-badge">0</span>
+  </button>
+
+  <!-- Slide-Up Cart Panel -->
+  <div id="cartPanel" class="cart-panel">
+    <div class="cart-panel-header">
+      <h3>Your Seats</h3>
+      <button id="closeCart" class="close-cart">✕</button>
+    </div>
+
+    <ul id="cartList"></ul>
+
+    <button id="emptyCartBtn" class="empty-cart-btn">Empty Cart</button>
+
+    <div class="cart-total">
+      Total: $<span id="cartTotal">0</span>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
