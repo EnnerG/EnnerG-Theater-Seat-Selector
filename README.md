@@ -8,7 +8,7 @@ This project demonstrates dynamic rendering, state management, responsive layout
 ---
 
 ## 🚀 Live Demo
-(GitHub Pages link)
+https://ennerg.github.io/EnerG-Theater-Seat-Selector/ (GitHub Pages link)
 
 ---
 
@@ -76,5 +76,6 @@ No frameworks. No libraries.
 ---
 
 # 🗂 Project Structure
+
 
 
