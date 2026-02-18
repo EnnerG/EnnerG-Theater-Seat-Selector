@@ -1,4 +1,4 @@
-# 🎬 EnerG Theater Seat Selector — Version 1.0
+# 🎬 EnnerG Theater Seat Selector — Version 1.0
 
 A modern, responsive, and interactive cinema seat selection interface built with **HTML, CSS, and JavaScript**.  
 Designed with a clean, minimalist aesthetic and a mobile‑native UX inspired by real ticketing platforms.
@@ -76,6 +76,7 @@ No frameworks. No libraries.
 ---
 
 # 🗂 Project Structure
+
 
 
 
