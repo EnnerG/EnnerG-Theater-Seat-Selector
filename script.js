@@ -27,6 +27,8 @@ const seatMap = {
   ]
 };
 
+
+
 function generateSeatData(map) {
   const fullMap = {};
 
@@ -73,14 +75,24 @@ function renderDesktopLayout(map) {
   container.classList.add("desktop");
 
   Object.values(map).forEach(section => {
+
+    // Wrapper for section title + grid
+    const sectionWrapper = document.createElement("div");
+    sectionWrapper.classList.add("section-wrapper");
+
+    // Section title
+    const title = document.createElement("h3");
+    title.classList.add("section-title");
+    title.textContent = section.name;
+    sectionWrapper.appendChild(title);
+
+    // Seat grid
     const sectionDiv = document.createElement("div");
     sectionDiv.classList.add("section");
     sectionDiv.style.gridTemplateColumns = `repeat(${section.cols}, 1fr)`;
+    sectionWrapper.appendChild(sectionDiv);
 
-    sectionDiv.addEventListener("click", () => {
-      renderSeatDetail(section.id, map);
-    });
-
+    // Add seats
     section.seats.forEach(seat => {
       const seatDiv = document.createElement("div");
       seatDiv.classList.add("seat", seat.state);
@@ -88,10 +100,15 @@ function renderDesktopLayout(map) {
       sectionDiv.appendChild(seatDiv);
     });
 
-    container.appendChild(sectionDiv);
+    // Click entire wrapper to open detail view
+    sectionWrapper.addEventListener("click", () => {
+      renderSeatDetail(section.id, map);
+    });
+
+    // Append wrapper to container
+    container.appendChild(sectionWrapper);
   });
 }
-
 
 /* ---------------------------------------------------------
    MOBILE LAYOUT

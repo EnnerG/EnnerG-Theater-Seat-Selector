@@ -24,7 +24,7 @@ main {
 .seat-map.desktop {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  gap: 12px;
 }
 
 .seat-map.mobile {
@@ -46,6 +46,36 @@ main {
   margin-top: 20px;
 }
 
+
+/* Section wrapper with max-height and scroll */
+.section-wrapper {
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.section-wrapper {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.15s ease;
+  cursor: pointer;
+}
+
+.section-wrapper:hover {
+  transform: translateY(-2px);
+}
+
+/*Section title with margin and color*/
+.section-title {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+
 /* ---------------------------------------------------------
    SEAT STATES
 --------------------------------------------------------- */
@@ -55,6 +85,7 @@ main {
   border-radius: 4px;
   position: relative;
 }
+
 
 .seat.available {
   background: #4caf50;
