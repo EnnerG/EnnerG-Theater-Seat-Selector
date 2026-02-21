@@ -1,5 +1,47 @@
 # 🎬 EnnerG Theater Seat Selector — Version 1.0
 
+<p align="center">
+  <img src="assets/banner/banner.png" width="100%">
+</p>
+<!-- ========================= -->
+<!--       PROJECT BANNER      -->
+<!-- ========================= -->
+<p align="center">
+  <img src="assets/banner/banner.png" width="100%" alt="EnnerG Theater Seat Selector Banner">
+</p>
+
+<!-- ========================= -->
+<!--        HERO SECTION       -->
+<!-- ========================= -->
+<h1 align="center">🎬 EnnerG Theater Seat Selector</h1>
+
+<p align="center">
+  A modern, responsive, and interactive seat selection interface built with clean, minimalist design principles.
+</p>
+
+<!-- BADGES -->
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version Badge">
+  <img src="https://img.shields.io/badge/status-stable-brightgreen.svg" alt="Status Badge">
+  <img src="https://img.shields.io/badge/tech-HTML%20%7C%20CSS%20%7C%20JavaScript-orange.svg" alt="Tech Badge">
+  <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="License Badge">
+</p>
+
+<br>
+
+<!-- ========================= -->
+<!--      DEVICE MOCKUPS       -->
+<!-- ========================= -->
+<h2 align="center">📱 Device Mockups</h2>
+
+<p align="center">
+  <img src="assets/mockups/desktop-mockup.png" width="75%" alt="Desktop Mockup">
+</p>
+
+<p align="center">
+  <img src="assets/mockups/mobile-mockup.png" width="35%" alt="Mobile Mockup">
+</p>
+
 A modern, responsive, and interactive cinema seat selection interface built with **HTML, CSS, and JavaScript**.  
 Designed with a clean, minimalist aesthetic and a mobile‑native UX inspired by real ticketing platforms.
 
@@ -8,20 +50,20 @@ This project demonstrates dynamic rendering, state management, responsive layout
 ---
 
 ## 🚀 Live Demo
-https://ennerg.github.io/EnerG-Theater-Seat-Selector/ (GitHub Pages link)
+[https://ennerg.github.io/EnerG-Theater-Seat-Selector/]
 
 ---
 
 ## 📸 Screenshots
 
 ### Desktop Layout
-![Desktop Layout](assets/screenshots/theater-seat-diagram.png)
+![Desktop Layout](assets/screenshots/home.png)
 
 ### Section Detail View
-![Section Detail](assets/screenshots/select-section.png)
+![Section Detail](assets/screenshots/seat-detail.png)
 
 ### Cart Panel
-![Cart Panel](assets/screenshots/cart-popup.png)
+![Cart Panel](assets/screenshots/cart-panel.png)
 
 
 ---
@@ -33,12 +75,11 @@ https://ennerg.github.io/EnerG-Theater-Seat-Selector/ (GitHub Pages link)
 - Multi‑seat selection  
 - Real‑time pricing and running total  
 - Reservation confirmation with seat summary  
-- Section detail view with “Back” and “View All Seats” options
-- Section titles displayed above each seat cluster for improved readability  
+- Section detail view with “Back” and “View All Seats” options  
 
 ### 🛒 Modern Cart System
 - Floating cart button with minimalist dark badge  
-- Slide‑up bottom‑sheet cart panel (optimized width for better UX)  
+- Slide‑up bottom‑sheet cart panel (optimized width)  
 - Remove individual seats  
 - Empty cart button  
 - Automatic total calculation  
@@ -56,36 +97,31 @@ https://ennerg.github.io/EnerG-Theater-Seat-Selector/ (GitHub Pages link)
 - Smooth layout transitions  
 
 ---
-
+### Future Enhancements
 🔮 Future Enhancements (Roadmap)
 These are planned for Version 1.1, 1.2, and 2.0.
 
 v1.1 — Visual & Pricing Enhancements
--	Seat type pricing (VIP, Standard, Accessible)
--	Color coded seat types
--	Seat selection animations (pop, highlight)
--	Slide in / fade in transitions
-
+- Seat‑type pricing (VIP, Standard, Accessible)
+- Color‑coded seat types
+- Seat selection animations (pop, highlight)
+- Slide‑in / fade‑in transitions
 v1.2 — Persistence & User Experience
--	LocalStorage persistence
-	- Selected seats survive refresh
-  - Reserved seats persist
--	Improved mobile transitions
--	Optional dark mode
-
+- LocalStorage persistence
+-   Selected seats survive refresh
+-   Reserved seats persist
+- Improved mobile transitions
+- Optional dark mode
 v2.0 — Advanced Features
-Admin mode
-
--	Admin mode
-  -	Block/unblock seats
-  -	Mark sections unavailable
-  -	Developer tools panel
--	Checkout modal
-  -	Order summary
-  -	Confirmation step
--	Reset All Seats (developer tool)
--	Analytics hooks (optional)
-
+- Admin mode
+-   Block/unblock seats
+-   Mark sections unavailable
+-   Developer tools panel
+- Checkout modal
+-   Order summary
+-   Confirmation step
+- Reset All Seats (developer tool)
+- Analytics hooks (option)
 
 🤝 Contributing
 Pull requests are welcome.
@@ -96,8 +132,10 @@ MIT License.
 Feel free to use this project for learning, portfolios, or extensions.
 
 ⭐ Author
-Created by Vanessa — entrepreneur, project manager, technical trainer, and systems designer.
+Created by Vanessa — Entrepreneur, project manager, technical trainer, and systems designer.
 Focused on building premium, intentional digital experiences.
+
+---
 
 # 🧩 Tech Stack
 
@@ -106,25 +144,16 @@ Focused on building premium, intentional digital experiences.
 - **JavaScript (ES6+)** — dynamic rendering, state management, interactions  
 
 No frameworks. No libraries.  
-Just clean, intentional, portfolio-grade code.
+Just clean, intentional, portfolio‑grade code.
 
 ---
-
-## Recent Updates
-- Optimized cart panel width for improved viewing experience
-- Added section titles above seat clusters for clearer layout structure
-
-## Design Decisions
-- Floating cart button chosen for a modern, mobile‑native UX
-- Narrow bottom sheet cart panel improves readability and reduces visual weight
-- Section titles added to enhance spatial orientation and accessibility
-
 
 # 🗂 Project Structure
 /
 |---index.html
-|---styles.css
-|---script.js
+|---style.css
+|---scipt.js
+|---readme.md
 |---assets
 
 
@@ -157,6 +186,3 @@ Clicking **Reserve Seat(s)** marks selected seats as permanently reserved.
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/cinema-seat-selector.git
-
-
-
