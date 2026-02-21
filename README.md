@@ -186,5 +186,3 @@ Clicking **Reserve Seat(s)** marks selected seats as permanently reserved.
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/cinema-seat-selector.git
-
-
