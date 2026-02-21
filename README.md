@@ -50,7 +50,7 @@ This project demonstrates dynamic rendering, state management, responsive layout
 ---
 
 ## 🚀 Live Demo
-[https://ennerg.github.io/EnnerG-Theater-Seat-Selector/)]
+[https://ennerg.github.io/EnnerG-Theater-Seat-Selector/]
 
 ---
 
@@ -186,4 +186,5 @@ Clicking **Reserve Seat(s)** marks selected seats as permanently reserved.
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/cinema-seat-selector.git
+
 
