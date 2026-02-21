@@ -7,7 +7,7 @@
 <!--       PROJECT BANNER      -->
 <!-- ========================= -->
 <p align="center">
-  <img src="assets/banner/banner.png" width="100%" alt="EnnerG Theater Seat Selector Banner">
+  <img src="assets/banner/hero.png" width="100%" alt="EnnerG Theater Seat Selector Banner">
 </p>
 
 <!-- ========================= -->
